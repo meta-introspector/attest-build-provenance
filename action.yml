@@ -50,7 +50,7 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - uses: meta-introspector/attest-build-provenance/predicate@v2.1.0 # predicate@1.1.4
+    - uses: meta-introspector/attest-build-provenance/predicate@local # predicate@1.1.4
       id: generate-build-provenance-predicate
     - uses: meta-introspector/attest@v2.1.0
       id: attest
